@@ -59,8 +59,6 @@ public class Polynomial {
 	 *         is the front of the result polynomial
 	 */
 	public static Node add(Node poly1, Node poly2) {
-		
-		/** COMPLETE THIS METHOD **/
 		// FOLLOWING LINE IS A PLACEHOLDER TO MAKE THIS METHOD COMPILE
 		// CHANGE IT AS NEEDED FOR YOUR IMPLEMENTATION
 		if(poly1 ==null) {
@@ -163,7 +161,6 @@ public class Polynomial {
 	 *         is the front of the result polynomial
 	 */
 	public static Node multiply(Node poly1, Node poly2) {
-		/** COMPLETE THIS METHOD **/
 		// FOLLOWING LINE IS A PLACEHOLDER TO MAKE THIS METHOD COMPILE
 		// CHANGE IT AS NEEDED FOR YOUR IMPLEMENTATION
 		if(poly1 ==null) {
@@ -203,7 +200,6 @@ public class Polynomial {
 	 * @return Value of polynomial p at x
 	 */
 	public static float evaluate(Node poly, float x) {
-		/** COMPLETE THIS METHOD **/
 		// FOLLOWING LINE IS A PLACEHOLDER TO MAKE THIS METHOD COMPILE
 		// CHANGE IT AS NEEDED FOR YOUR IMPLEMENTATION
 		float Answer=0;
@@ -215,9 +211,6 @@ public class Polynomial {
 		return (float)Answer;
 	}
 
-		
-	
-	
 	/**
 	 * Returns string representation of a polynomial
 	 * 
@@ -228,7 +221,6 @@ public class Polynomial {
 		if (poly == null) {
 			return "0";
 		} 
-		
 		String retval = poly.term.toString();
 		for (Node current = poly.next ; current != null ;
 		current = current.next) {
